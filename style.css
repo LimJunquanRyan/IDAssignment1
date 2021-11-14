@@ -1,21 +1,23 @@
 .heading1{
   font-size: 24px;
-  color: whitesmoke;
+  color: #f2f2f2;
 }
 
 .heading2{
   font-size: 20px;
-  color: whitesmoke;
+  color: #f2f2f2;
 }
 
 .normal{
   font-size: 16px;
-  color: whitesmoke;
+  color: #f2f2f2;
 }
 
 .container{
-  background-color: rgb(54, 54, 54);
+  background-color: #363636;
 }
+
+
 
 .topnav {
     overflow: hidden;
