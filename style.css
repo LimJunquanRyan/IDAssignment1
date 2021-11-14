@@ -15,9 +15,17 @@
 
 .container{
   background-color: #363636;
+  margin: 20px;
+  padding: 10px;
 }
 
+.pageLinks > li{
+  color: #f2f2f2;
+}
 
+.pageLinks > li > a{
+  color: #00b8c5;
+}
 
 .topnav {
     overflow: hidden;
