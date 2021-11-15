@@ -20,7 +20,7 @@
   color: var(--dark);
 }
 
-.container{
+.section{
   background-color: var(--light);
   margin: 20px;
   padding: 10px;
@@ -67,6 +67,18 @@
   background-image: url(51BiAGWGA6L._AC_SL1000_.jpg);
   background-size: cover;
   resize: both;
-  width: 200px;
-  padding: 8rem 0 0;
+  height: auto;
+  padding: 15rem 0 0;
+}
+
+.container{
+  display: flex;
+  flex: row nowrap;
+  flex-grow: 1;
+}
+
+.container > li{
+  margin: 20px;
+  list-style-type: none;
+  width: 25%;
 }
