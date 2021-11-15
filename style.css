@@ -1,40 +1,47 @@
+:root{
+  --dark: #363636;
+  --light: #EBEBEB;
+  --purple: #814B6A;
+  --yellow: #E1D266;
+}
+
 .heading1{
   font-size: 24px;
-  color: #f2f2f2;
+  color: var(--dark);
 }
 
 .heading2{
   font-size: 20px;
-  color: #f2f2f2;
+  color: var(--dark);
 }
 
 .normal{
   font-size: 16px;
-  color: #f2f2f2;
+  color: var(--dark);
 }
 
 .container{
-  background-color: #363636;
+  background-color: var(--light);
   margin: 20px;
   padding: 10px;
 }
 
 .pageLinks > li{
-  color: #f2f2f2;
+  color: var(--dark);
 }
 
 .pageLinks > li > a{
-  color: #00b8c5;
+  color: var(--purple);
 }
 
 .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: var(--dark);
   }
   
   .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: var(--light);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -42,15 +49,24 @@
   }
   
   .topnav a:hover {
-    background-color: #ddd;
+    background-color: var(--light);
     color: black;
   }
   
   .topnav a.active {
-    background-color: #00b8c5;
-    color: white;
+    background-color: var(--purple);
+    color: var(--light);
   }
 
   .topnav .icon {
     display: none;
   }
+
+.card{
+  color: var(--dark);
+  background-image: url(51BiAGWGA6L._AC_SL1000_.jpg);
+  background-size: cover;
+  resize: both;
+  width: 200px;
+  padding: 8rem 0 0;
+}
