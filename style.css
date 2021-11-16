@@ -62,9 +62,13 @@
     display: none;
   }
 
+.imgCaseABS {background-image: "caseABS";}
+.imgCaseAcrylic1 {background-image: "caseAcrylicSide";}
+.imgCaseAcrylic2 {background-image: "caseAcrylicTop";}
+.imgCaseAcrylic3 {background-image: "caseAcrylicTopSide";}
+
 .card{
   color: var(--dark);
-  background-image: url(51BiAGWGA6L._AC_SL1000_.jpg);
   background-size: cover;
   resize: both;
   height: auto;
