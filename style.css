@@ -62,12 +62,13 @@
     display: none;
   }
 
-.imgCaseABS {background-image: "caseABS";}
-.imgCaseAcrylic1 {background-image: "caseAcrylicSide";}
-.imgCaseAcrylic2 {background-image: "caseAcrylicTop";}
-.imgCaseAcrylic3 {background-image: "caseAcrylicTopSide";}
+.imgCaseABS {background-image: url("caseABS.jpg");}
+.imgCaseAcrylic1 {background-image: url("caseAcrylicSide.jfif");}
+.imgCaseAcrylic2 {background-image: url("caseAcrylicTop.jpg");}
+.imgCaseAcrylic3 {background-image: url("caseAcrylicTopSide.jfif");}
 
 .card{
+  display: flex;
   color: var(--dark);
   background-size: cover;
   resize: both;
