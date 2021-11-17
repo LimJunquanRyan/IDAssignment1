@@ -3,6 +3,8 @@
   --light: #EBEBEB;
   --purple: #814B6A;
   --yellow: #E1D266;
+  --imgCaseABS: url("caseABS.jpg");
+  --imgCaseAcrylic: url("caseAcrylicSide.jfif");
 }
 
 .heading1{
@@ -62,12 +64,11 @@
     display: none;
   }
 
-.imgCaseABS {background-image: url("caseABS.jpg");}
-.imgCaseAcrylic1 {background-image: url("caseAcrylicSide.jfif");}
-.imgCaseAcrylic2 {background-image: url("caseAcrylicTop.jpg");}
-.imgCaseAcrylic3 {background-image: url("caseAcrylicTopSide.jfif");}
+.slideShow {display: none;}
+.imgCaseABS {background-image: var(--imgCaseABS);}
+.imgCaseAcrylic {background-image: var(--imgCaseAcrylic);}
 
-.card{
+.card {
   display: flex;
   color: var(--dark);
   background-size: cover;
@@ -76,13 +77,17 @@
   padding: 15rem 0 0;
 }
 
-.container{
+.card a:hover {
+  transform: scale(1.05);
+}
+
+.container {
   display: flex;
   flex: row nowrap;
   flex-grow: 1;
 }
 
-.container > li{
+.container > li {
   margin: 20px;
   list-style-type: none;
   width: 25%;
