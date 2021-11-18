@@ -1,6 +1,6 @@
 :root{
   --dark: #363636;
-  --light: #f2f2f2;
+  --light: #d6d6d6;
   --purple: #814B6A;
   --yellow: #E1D266;
 }
@@ -70,6 +70,28 @@
 
   .topnav .icon {
     display: none;
+  }
+
+.partsnav {
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    background-color: var(--dark);
+  }
+  
+  .partsnav a {
+    float: none;
+    color: var(--light);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .partsnav a:hover {
+    background-color: var(--light);
+    color: black;
   }
 
 .container {
