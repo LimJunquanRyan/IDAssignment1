@@ -5,15 +5,17 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <nav class="topnav">
-            <a href="index.html">Home</a>
-            <a href="terminology.html">Terminology</a>
-            <a class="active" href="parts.html">Parts</a>
-            <a href="javascript:void(0);" class="icon" onclick="navigate()"></a>
-        </nav>
+        <header>
+            <nav class="topnav">
+                <a href="index.html">Home</a>
+                <a href="terminology.html">Terminology</a>
+                <a class="active" href="parts.html">Parts</a>
+                <a href="javascript:void(0);" class="icon" onclick="navigate()"></a>
+            </nav>
+        </header>
         <section class="section">
             <header class="heading1">What parts are required to build a custom mechanical keyboard?</header>
-            <ul class="pageLinks">
+            <ul class="pageLinks heading3">
                 <li><a href="#case">Case</a></li>
                 <li><a href="#pcb">PCB</a></li>
                 <li><a href="#plate">Plate</a></li>
@@ -22,10 +24,30 @@
             </ul>
             <p class="heading2" id="case">Case: The container that holds all the other components</p>
                 <ul class="normal container">
-                    <li><div class="card imgCaseABS" onmouseover="autoSlides(imgCaseABS, 'imgCaseABS')"></div></li>
-                    <li><div class="card">Polycarbonate</div></li>
-                    <li><div class="card imgCaseAcrylic" onmouseover="autoSlides(imgCaseAcrylic, 'imgCaseAcrylic')"></div></li>
-                    <li><div class="card">Aluminium</div></li>
+                    <li>
+                        <figure class="image">
+                            <img src="caseABS.jpg" alt="" srcset="" height="200px">
+                            <div class="imgText">ABS Case</div>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="image">
+                            <img src="casePolycarbonate.jpg" alt="" srcset="" height="200px">
+                            <div class="imgText">Polycarbonate Case</div>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="image">
+                            <img src="caseAcrylicSide.jfif" alt="" srcset="" height="200px">
+                            <div class="imgText">Acrylic Case</div>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure class="image">
+                            <img src="caseAluminium.jpg" alt="" srcset="" height="200px">
+                            <div class="imgText">Aluminium Case</div>
+                        </figure>
+                    </li>
                 </ul>
             <p class="heading2" id="pcb">PCB: The brain behind a functional mechanical keyboard</p>
             <p class="heading2" id="plate">Plate: The structure that holds the switches in place with the PCB</p>
@@ -42,19 +64,24 @@
                     <li>ABS</li>
                     <li>PBT</li>
                     <li>POM</li>
+                    <li>Wood</li>
                     <li>Resin</li>
                     <li>Aluminium</li>
                     <li>Brass</li>
                 </ul>
             <p class="heading2" id="switches">Switches: The keystroke register</p>
-                <ul class="normal">
-                    <li>ABS</li>
-                    <li>PBT</li>
+                <ul class="heading3">Top Housing
                     <li>POM</li>
-                    <li>Resin</li>
-                    <li>Aluminium</li>
-                    <li>Brass</li>
+                    <li>Polycarbonate</li>
+                    <li>Nylon</li>
+                    <li>UHMWPE</li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
                 </ul>
         </section>
+        <footer class="footer">
+            <p class="heading2">Any Information to add on or Questions that need clarifying? Contact Me @ s10192609@connect.np.edu.sg</p>
+        </footer>
     </body>
 </html>
