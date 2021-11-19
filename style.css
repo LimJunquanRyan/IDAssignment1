@@ -5,6 +5,10 @@
   --yellow: #E1D266;
 }
 
+body{
+  margin: 0px;
+}
+
 .heading1{
   font-size: 26px;
   color: var(--dark);
@@ -25,23 +29,24 @@
   color: var(--dark);
 }
 
+.tab{
+  padding-left: 80 px;
+}
+
 .section{
   background-color: var(--light);
   margin: 20px;
-  padding: 10px;
+  padding: 30px;
 }
 
 .footer{
   background-color: var(--light);
-  padding: 30px;
+  margin: 0px;
+  padding: 50px;
 }
 
-.pageLinks > li{
+.pageLinks > a{
   color: var(--dark);
-}
-
-.pageLinks > li > a{
-  color: var(--purple);
 }
 
 .topnav {
@@ -102,6 +107,10 @@
 
 .container > li {
   list-style-type: none;
+}
+
+.container li figure:hover {
+  transform: scale(1.05);
 }
 
 .image{
