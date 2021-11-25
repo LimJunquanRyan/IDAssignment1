@@ -127,3 +127,13 @@ body{
   padding: 0.25rem;
   margin-bottom: 1rem;
 }
+
+.button {
+  outline: none;
+  color: var(--light);
+  background-color: var(--purple);
+  font-size: 22px;
+  height: 4ch;
+  width: 14ch;
+  border-radius: 3ch;
+}
