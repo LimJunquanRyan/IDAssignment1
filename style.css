@@ -10,7 +10,7 @@ body{
 }
 
 .heading1{
-  font-size: 26px;
+  font-size: 30px;
   color: var(--dark);
 }
 
@@ -35,14 +35,14 @@ body{
 
 .section{
   background-color: var(--light);
-  margin: 20px;
-  padding: 30px;
+  margin: 5ch;
+  padding: 5ch;
 }
 
 .footer{
   background-color: var(--light);
   margin: 0px;
-  padding: 50px;
+  padding: 5ch;
 }
 
 .pageLinks > a{
@@ -50,12 +50,12 @@ body{
 }
 
 .topnav {
+    display: flex;
     overflow: hidden;
     background-color: var(--dark);
   }
   
   .topnav a {
-    float: left;
     color: var(--light);
     text-align: center;
     padding: 14px 16px;
@@ -103,6 +103,7 @@ body{
   display: flex;
   flex-flow: row wrap;
   flex-grow: 1;
+  padding: 0;
 }
 
 .container > li {
@@ -115,6 +116,8 @@ body{
 
 .image{
   display: block;
+  max-width: 100%;
+  height: auto;
   position: relative;
 }
 
@@ -125,15 +128,86 @@ body{
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   padding: 0.25rem;
+  font-size: 18px;
   margin-bottom: 1rem;
 }
 
 .button {
   outline: none;
   color: var(--light);
-  background-color: var(--purple);
+  background-color: var(--dark);
   font-size: 22px;
   height: 4ch;
   width: 14ch;
   border-radius: 3ch;
+}
+
+@media screen{
+  @media (max-width: 800px){
+    .container li figure img{
+      height: 150px;
+    }
+
+    .topnav a {
+      color: var(--light);
+      text-align: center;
+      padding: 14px 14px;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .partsnav a {
+      float: none;
+      color: var(--light);
+      text-align: center;
+      padding: 14px 0px;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .heading1{
+      font-size: 24px;
+      color: var(--dark);
+    }
+    
+    .heading2{
+      font-size: 17px;
+      color: var(--dark);
+    }
+    
+    .heading3, .heading2 > figure, .heading2 > li{
+      font-size: 15px;
+      color: var(--dark);
+    }
+
+    .normal, .heading3 > li{
+      font-size: 13px;
+      color: var(--dark);
+    }
+    .imgText{
+      position: absolute;
+      bottom: 0;
+      background-color: #ebebeb;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+      padding: 0.25rem;
+      font-size: 13px;
+      margin-bottom: 1rem;
+    }
+  }
+  @media (max-width: 600px){
+    .container li figure img{
+      height: 100px;
+    }
+  }
+  @media (max-width: 450px){
+    .container li figure img{
+      height: 75px;
+    }
+  }
+  @media (max-width: 350px){
+    .container li figure img{
+      height: 50px;
+    }
+  }
 }
