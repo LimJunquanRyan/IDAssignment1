@@ -1,8 +1,7 @@
 :root{
-  --dark: #363636;
-  --light: #d6d6d6;
-  --purple: #814B6A;
-  --yellow: #E1D266;
+  --dark: #2A2438;
+  --light: #DBD8E3;
+  --purple: #5C5470;
 }
 
 body{
@@ -27,6 +26,12 @@ body{
 .normal, .heading3 > li{
   font-size: 16px;
   color: var(--dark);
+}
+
+.homeImg {
+  width: 100%;
+  height: 100%;
+  display: block;
 }
 
 .tab{
