@@ -1,6 +1,7 @@
 :root{
   --dark: #2A2438;
   --light: #DBD8E3;
+  --darkpurple: #352F44;
   --purple: #5C5470;
 }
 
@@ -9,21 +10,25 @@ body{
 }
 
 .heading1{
+  font-family: 'Montserrat', sans-serif;
   font-size: 30px;
-  color: var(--dark);
+  color: var(--light);
 }
 
 .heading2{
+  font-family: 'Montserrat', sans-serif;
   font-size: 22px;
-  color: var(--dark);
+  color: var(--light);
 }
 
 .heading3, .heading2 > figure, .heading2 > li{
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
-  color: var(--dark);
+  color: var(--light);
 }
 
 .normal, .heading3 > li{
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   color: var(--dark);
 }
@@ -39,13 +44,17 @@ body{
 }
 
 .section{
-  background-color: var(--light);
+  background-color: var(--darkpurple);
   margin: 5ch;
   padding: 5ch;
 }
 
+.section u{
+  color: var(--light);
+}
+
 .footer{
-  background-color: var(--light);
+  background-color: var(--darkpurple);
   margin: 0px;
   padding: 5ch;
 }
@@ -60,9 +69,11 @@ body{
     background-color: var(--dark);
   }
   
-  .topnav a {
+  .topnav a, img{
+    font-family: 'Montserrat', sans-serif;
     color: var(--light);
     text-align: center;
+    text-justify: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -85,14 +96,15 @@ body{
 .partsnav {
     margin: 10px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     overflow: hidden;
-    background-color: var(--dark);
+    background-color: var(--light);
   }
   
   .partsnav a {
     float: none;
-    color: var(--light);
+    color: var(--dark);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -100,18 +112,19 @@ body{
   }
 
   .partsnav a:hover {
-    background-color: var(--light);
-    color: black;
+    background-color: var(--dark);
+    color: var(--light);
   }
 
 .container {
   display: flex;
   flex-flow: row wrap;
-  flex-grow: 1;
-  padding: 0;
+  flex-grow: 1; 
+  padding-left: 0;
+  margin-left: 0;
 }
 
-.container > li {
+.container li {
   list-style-type: none;
 }
 
@@ -129,18 +142,20 @@ body{
 .imgText{
   position: absolute;
   bottom: 0;
-  background-color: #ebebeb;
+  background-color: var(--light);
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   padding: 0.25rem;
   font-size: 18px;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
 }
 
 .button {
+  font-family: 'Montserrat', sans-serif;
   outline: none;
-  color: var(--light);
-  background-color: var(--dark);
+  color: var(--dark);
+  background-color: var(--light);
   font-size: 22px;
   height: 4ch;
   width: 14ch;
@@ -154,6 +169,7 @@ body{
     }
 
     .topnav a {
+      font-family: 'Montserrat', sans-serif;
       color: var(--light);
       text-align: center;
       padding: 14px 14px;
@@ -162,8 +178,9 @@ body{
     }
 
     .partsnav a {
+      font-family: 'Montserrat', sans-serif;
       float: none;
-      color: var(--light);
+      color: var(--dark);
       text-align: center;
       padding: 14px 0px;
       text-decoration: none;
@@ -171,28 +188,33 @@ body{
     }
 
     .heading1{
+      font-family: 'Montserrat', sans-serif;
       font-size: 24px;
-      color: var(--dark);
+      color: var(--light);
     }
     
     .heading2{
+      font-family: 'Montserrat', sans-serif;
       font-size: 17px;
-      color: var(--dark);
+      color: var(--light);
     }
     
     .heading3, .heading2 > figure, .heading2 > li{
+      font-family: 'Montserrat', sans-serif;
       font-size: 15px;
-      color: var(--dark);
+      color: var(--light);
     }
 
     .normal, .heading3 > li{
+      font-family: 'Montserrat', sans-serif;
       font-size: 13px;
       color: var(--dark);
     }
     .imgText{
+      font-family: 'Montserrat', sans-serif;
       position: absolute;
       bottom: 0;
-      background-color: #ebebeb;
+      background-color: var(--light);
       border-top-right-radius: 5px;
       border-bottom-right-radius: 5px;
       padding: 0.25rem;

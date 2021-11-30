@@ -4,18 +4,22 @@
         <meta charset="utf-8">
         <title>Custom Mechanical Keyboard</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
         <header>
             <nav class="topnav">
+                <img src="assets/switch.png" alt="">
                 <a href="index.html">Home</a>
                 <a href="terminology.html">Terminology</a>
                 <a class="active" href="parts.html">Parts</a>
-                <a href="javascript:void(0);" class="icon" onclick="navigate()"></a>
             </nav>
         </header>
-        <section class="section">
+        <section class="section purplesection">
             <u><header class="heading1">What parts are required to build a custom mechanical keyboard?</header></u><br>
             <nav class="partsnav pageLinks heading3">
                 <a href="#case">Case</a>
@@ -26,7 +30,7 @@
             </nav>
         </section>
         <section class="section">
-            <p class="heading2" id="case">Case: The container that holds all the other components</p>
+            <strong><p class="heading2" id="case">Case: The container that holds all the other components</p></strong>
             <ul class="normal container">
                 <li>
                     <figure class="image">
@@ -61,7 +65,7 @@
             </ul>
         </section>
         <section class="section">
-            <p class="heading2" id="pcb">PCB: The brain behind a functional mechanical keyboard</p>
+            <strong><p class="heading2" id="pcb">PCB: The brain behind a functional mechanical keyboard</p></strong>
             <ul class="normal container">
                 <li>
                     <figure class="image">
@@ -78,7 +82,7 @@
             </ul>
         </section>
         <section class="section">
-            <p class="heading2" id="plate">Plate: The structure that holds the switches in place with the PCB</p>
+            <strong><p class="heading2" id="plate">Plate: The structure that holds the switches in place with the PCB</p></strong>
             <ul class="normal container">
                 <li>
                     <figure class="image">
@@ -131,7 +135,7 @@
             </ul>
         </section>
         <section class="section">
-            <p class="heading2" id="keycaps">Keycaps: The contact point with the keyboard</p>
+            <strong><p class="heading2" id="keycaps">Keycaps: The contact point with the keyboard</p></strong>
             <ul class="normal container">
                 <li>
                     <figure class="image">
@@ -184,8 +188,8 @@
             </ul>
         </section>
         <section class="section">
-            <p class="heading2" id="switches">Switches: The keystroke register</p>
-            <p class="heading3 tab">Popular Budget Options:</p>
+            <strong><p class="heading2" id="switches">Switches: The keystroke register</p></strong>
+            <em><p class="heading3 tab">Popular Budget Options:</p></em>
             <ul class="heading3 container">
                 <li>
                     <figure class="image">
@@ -200,7 +204,7 @@
                     </figure>
                 </li>
             </ul>
-            <p class="heading3 tab">Popular Midrange Options:</p>
+            <em><p class="heading3 tab">Popular Midrange Options:</p></em>
             <ul class="normal container">
                 <li>
                     <figure class="image">
@@ -213,6 +217,8 @@
         <footer class="footer">
             <p class="heading2">Any Information to add on or Questions that need clarifying?</p>
             <button class="button" onclick='window.alert("Work In Progress!")'>Contact Me!</button>
+            <p class="heading2">Lim Junquan Ryan © 2021</p>
         </footer>
+        <script src="script.js" async defer></script>
     </body>
 </html>

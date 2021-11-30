@@ -26,8 +26,8 @@ Parts Page - Provides a non-exhaustive overlook on what parts are required to bu
 - Consolidated pictures and information - allows people new to the hobby to get a quick overview into the hobby
 
 ### Features Left to Implement
-- Feedback Form - allows other users to provide feedback on what can be improved for the website or what information is outdated and should be updated
-- Changelog (to be after feeback form) - to allow users revisiting the site to find out what about the website has been updated or changed
+- Contact Me/Feedback Form - allows other users to provide feedback on what can be improved for the website or what information is outdated and should be updated
+- Changelog (to be after feedback form) - to allow users revisiting the site to find out what about the website has been updated or changed
 - More pages such as vendors and guides - to allow the platform to be a one-stop hub for anything mechanical keyboards
 
 ## Technologies Used
@@ -36,9 +36,6 @@ Parts Page - Provides a non-exhaustive overlook on what parts are required to bu
   - 1 of the 3 base languages for WebDev
 - CSS
   - 1 of the 3 base languages for WebDev
-- JavaScript 
-  - 1 of the 3 base languages for WebDev
-
 
 ## Testing
 
@@ -61,8 +58,20 @@ Parts Page - Provides a non-exhaustive overlook on what parts are required to bu
 ## Credits
 
 ### Content
-
+- Ideas for Home Page
+  - https://www.reddit.com/r/MechanicalKeyboards/comments/hlf0ql/a_complete_beginner_guide_to_the_world_of/
+- Layout for Parts Image and Text
+  - https://www.switchdb.net/
+- normalize.css
+  - https://github.com/necolas/normalize.css/
 ### Media
+Below are the photos used in this site and where they were obtained from:
+- NavBar Icon
+  - https://99designs.com.sg/logo-design/contests/design-mechanical-keyboard-switches-logo-851480
+
+- Home Page Image
+  - https://wallpaperaccess.com/mechanical-keyboard
+
 - ABS Case: 
   - https://www.amazon.com/Keyboard-plastic-Mechanical-Gaming-Compatible/dp/B06XNMTYJV
 
@@ -134,6 +143,7 @@ Parts Page - Provides a non-exhaustive overlook on what parts are required to bu
 
 - Akko CS Ocean Blue:
   - https://akkogear.com.vn/san-pham/akko-cs-switch-ocean-blue/
+
 ### Acknowledgements
 
 - I received inspiration for this project from Mr Peter Hung, my tutor for the interactive development module
