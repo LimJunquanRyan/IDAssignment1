@@ -1,11 +1,9 @@
 # ID_S10192609_LimJunquanRyan_Assg01
-One or two paragraphs providing an overview of your project. Tell us about your project.
 
-Essentially, this part is your sales pitch.
+This project is a simple informational website about custom mechanical keyboards.
+This project is created as a deliverable for a module taken at Ngee Ann Polytechnic called "Interactive Development" and as a passion project to research more about and to help guide people who are new to custom mechanical keyboards.
  
 ## Design Process
- 
-Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 This website was designed to help those who are new with an interest in custom mechanical keyboards by providing them with a platform to have a base level of knowledge before exploring the world, that is custom mechanical keyboards on their own. My project is designed with layman's terms in mind along with a terminology section in order to help them to understand without knowing the complicated terminology that is used by veterans in the scene.
 
@@ -32,9 +30,9 @@ Parts Page - Provides a non-exhaustive overlook on what parts are required to bu
 
 ## Technologies Used
 
-- HTML
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
   - 1 of the 3 base languages for WebDev
-- CSS
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
   - 1 of the 3 base languages for WebDev
 
 ## Testing

@@ -9,28 +9,15 @@ body{
   margin: 0px;
 }
 
-.heading1{
+h1, h2, h3, h4, h5, h6{
   font-family: 'Montserrat', sans-serif;
-  font-size: 30px;
   color: var(--light);
 }
 
-.heading2{
+.ul{
   font-family: 'Montserrat', sans-serif;
-  font-size: 22px;
+  font-size: 18px;
   color: var(--light);
-}
-
-.heading3, .heading2 > figure, .heading2 > li{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
-  color: var(--light);
-}
-
-.normal, .heading3 > li{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
-  color: var(--dark);
 }
 
 .homeImg {
@@ -40,7 +27,7 @@ body{
 }
 
 .tab{
-  padding-left: 80 px;
+  padding-left: 80px;
 }
 
 .section{
@@ -59,21 +46,23 @@ body{
   padding: 5ch;
 }
 
-.pageLinks > a{
+.pageLinks a{
   color: var(--dark);
+  font-family: 'Montserrat', sans-serif;
 }
 
 .topnav {
     display: flex;
     overflow: hidden;
     background-color: var(--dark);
+    align-content: center;
+    justify-content: left;
   }
   
   .topnav a, img{
     font-family: 'Montserrat', sans-serif;
     color: var(--light);
-    text-align: center;
-    text-justify: center;
+    align-content: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -146,9 +135,11 @@ body{
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   padding: 0.25rem;
-  font-size: 18px;
   margin-bottom: 2rem;
   margin-left: 1rem;
+  max-width: 80%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
 }
 
 .button {
@@ -186,16 +177,10 @@ body{
       text-decoration: none;
       font-size: 14px;
     }
-
-    .heading1{
-      font-family: 'Montserrat', sans-serif;
-      font-size: 24px;
-      color: var(--light);
-    }
     
-    .heading2{
+    .ul{
       font-family: 'Montserrat', sans-serif;
-      font-size: 17px;
+      font-size: 16px;
       color: var(--light);
     }
     
